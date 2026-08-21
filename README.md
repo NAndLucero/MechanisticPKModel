@@ -1,7 +1,7 @@
 # Mechanistic Pharmacokinetic & Dissolution Model
 
 ## Overview
-This repository contains an Object-Oriented Python application that simulates the dissolution and systemic absorption of a solid oral pharmaceutical dosage form. By modeling the gastrointestinal tract and blood plasma as continuous stirred-tank reactors (CSTRs) in series, the script evaluates formulation performance and predicts first-in-human pharmacokinetic profiles.
+This repository contains an Object-Oriented Python application that simulates the dissolution and systemic absorption of a solid oral pharmaceutical dosage form. By modeling the gastrointestinal tract and blood plasma as one-compartmental models in series, the script evaluates formulation performance and predicts first-in-human pharmacokinetic profiles.
 
 ## Mathematical Fundamentals
 The system solves coupled ordinary differential equations (ODEs) to track mass transfer across three states: Solid Drug, GI Tract Fluid, and Blood Plasma.
